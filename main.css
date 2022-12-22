@@ -1,0 +1,82 @@
+/* okay let's learn css over again this is fun stuff */
+
+/* basic header design */
+
+body {
+    background-color: #F4F5FF;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.header-text, .oh {
+    display: inline-block;
+}
+
+/* navigation bar stuff */
+
+.main-nav-bar {
+    list-style: none;
+    text-align: center;
+    background-color: #3CDFFF;
+    padding: 20px;
+    border-radius: 10px;    
+}
+
+.main-nav-bar li {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.main-nav-bar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.main-nav-bar a:hover {
+    background-color: #39b8f7;
+    border-radius: 10px;
+}
+
+.selected {
+    font-weight: bolder;
+    font-size: 1.25em;
+}
+
+/* homepage (index) */
+
+.welcome {
+    text-align: center;
+    margin: 100px;
+    padding: 100px;
+    border-radius: 20px;
+    line-height: 30px;
+    background-color: #CC92F8;
+    box-shadow: 0px 4px 8px gray;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.welcome * {
+    margin: 20px;
+}
+
+/* fixing the timer page */
+
+html, body {
+    height: 100%;
+    display: grid;
+    place-content: center;
+}

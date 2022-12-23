@@ -7,6 +7,7 @@ body {
     font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 h1 {
@@ -75,8 +76,3 @@ h2 {
 
 /* fixing the timer page */
 
-html, body {
-    height: 100%;
-    display: grid;
-    place-content: center;
-}
